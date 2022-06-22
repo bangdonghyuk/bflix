@@ -1,0 +1,13 @@
+{
+  "main.css": "/bflix/static/css/main.32a724fc.chunk.css",
+  "main.js": "/bflix/static/js/main.7478c582.chunk.js",
+  "main.js.map": "/bflix/static/js/main.7478c582.chunk.js.map",
+  "static/js/1.c71f08d1.chunk.js": "/bflix/static/js/1.c71f08d1.chunk.js",
+  "static/js/1.c71f08d1.chunk.js.map": "/bflix/static/js/1.c71f08d1.chunk.js.map",
+  "runtime~main.js": "/bflix/static/js/runtime~main.0b461511.js",
+  "runtime~main.js.map": "/bflix/static/js/runtime~main.0b461511.js.map",
+  "static/css/main.32a724fc.chunk.css.map": "/bflix/static/css/main.32a724fc.chunk.css.map",
+  "index.html": "/bflix/index.html",
+  "precache-manifest.b89ef050da69bd6a9055d64fc3286614.js": "/bflix/precache-manifest.b89ef050da69bd6a9055d64fc3286614.js",
+  "service-worker.js": "/bflix/service-worker.js"
+}
