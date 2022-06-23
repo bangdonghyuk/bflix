@@ -3,11 +3,12 @@ import React, {} from "react";
 import {BrowserRouter as Router,Route } from "react-router-dom";
 import Home from "./routes/Home";
 import Detail from "./routes/Detail";
+import "./style.css"
 
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      <Route exact path="/movie/:id">
+        <Route exact path="/movie/:id">
           <Detail></Detail>
         </Route>
 
