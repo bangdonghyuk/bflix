@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/bflix/precache-manifest.eb790c43c4915a3e7aafb9485b99e749.js"
+  "/bangdonghyuk/bflix.git/precache-manifest.dd58745b30851b953c799c697371af4f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/bflix/index.html", {
+workbox.routing.registerNavigationRoute("/bangdonghyuk/bflix.git/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
