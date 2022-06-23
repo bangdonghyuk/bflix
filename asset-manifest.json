@@ -1,14 +1,14 @@
 {
-  "main.css": "/bangdonghyuk/bflix.git/static/css/main.fe0c0f5d.chunk.css",
-  "main.js": "/bangdonghyuk/bflix.git/static/js/main.cb649c96.chunk.js",
-  "main.js.map": "/bangdonghyuk/bflix.git/static/js/main.cb649c96.chunk.js.map",
-  "static/js/1.48a9c650.chunk.js": "/bangdonghyuk/bflix.git/static/js/1.48a9c650.chunk.js",
-  "static/js/1.48a9c650.chunk.js.map": "/bangdonghyuk/bflix.git/static/js/1.48a9c650.chunk.js.map",
-  "runtime~main.js": "/bangdonghyuk/bflix.git/static/js/runtime~main.cc4ba76f.js",
-  "runtime~main.js.map": "/bangdonghyuk/bflix.git/static/js/runtime~main.cc4ba76f.js.map",
-  "static/media/BFILX.png": "/bangdonghyuk/bflix.git/static/media/BFILX.350f37a8.png",
-  "static/css/main.fe0c0f5d.chunk.css.map": "/bangdonghyuk/bflix.git/static/css/main.fe0c0f5d.chunk.css.map",
-  "index.html": "/bangdonghyuk/bflix.git/index.html",
-  "precache-manifest.dd58745b30851b953c799c697371af4f.js": "/bangdonghyuk/bflix.git/precache-manifest.dd58745b30851b953c799c697371af4f.js",
-  "service-worker.js": "/bangdonghyuk/bflix.git/service-worker.js"
+  "main.css": "/bflix/static/css/main.fe0c0f5d.chunk.css",
+  "main.js": "/bflix/static/js/main.6af0ada3.chunk.js",
+  "main.js.map": "/bflix/static/js/main.6af0ada3.chunk.js.map",
+  "static/js/1.48a9c650.chunk.js": "/bflix/static/js/1.48a9c650.chunk.js",
+  "static/js/1.48a9c650.chunk.js.map": "/bflix/static/js/1.48a9c650.chunk.js.map",
+  "runtime~main.js": "/bflix/static/js/runtime~main.0b461511.js",
+  "runtime~main.js.map": "/bflix/static/js/runtime~main.0b461511.js.map",
+  "static/media/BFILX.png": "/bflix/static/media/BFILX.350f37a8.png",
+  "static/css/main.fe0c0f5d.chunk.css.map": "/bflix/static/css/main.fe0c0f5d.chunk.css.map",
+  "index.html": "/bflix/index.html",
+  "precache-manifest.eb790c43c4915a3e7aafb9485b99e749.js": "/bflix/precache-manifest.eb790c43c4915a3e7aafb9485b99e749.js",
+  "service-worker.js": "/bflix/service-worker.js"
 }
