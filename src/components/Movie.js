@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 import Replace from '../img/replace.jpg';
 
 
-function Movie({id,coverImg, title, rating, summary, genres}){
+function Movie({id,coverImg, title, rating, year}){
     const onErrorImg = (e) => {
       e.target.src = Replace;
     }
@@ -14,9 +14,10 @@ function Movie({id,coverImg, title, rating, summary, genres}){
             <img src={coverImg} alt={title} onError={onErrorImg}/>
             <div className="movie_imgBox">
               <div className="movie_imgWrap">
+              <p className="movie_imgYear">{year}</p>
               <p className="movie_imgRating">{rating} / 10</p>
               <Link className="movie_imgBtn" to={`/movie/${id}`}>Detail</Link>
-              </div>
+            </div>
           </div>
           </div>
         <h2 className="movie_title">{title}</h2>

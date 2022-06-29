@@ -187,10 +187,16 @@ body {
 
 /* header */
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    box-sizing: border-box;
+    z-index: 1000;
 }
 
 .header h1 {
@@ -229,22 +235,30 @@ body {
     display: flex;
 }
 
-.gnb{
+.gnb{}
 
+@media screen and (max-width : 768px) {
+    .gnb{
+        display: none;
+    }
 }
+
 
 .gnb_list{
     display: flex;
     align-items: center;
     margin-right: 30px;
 }
-.gnb_item{
+
+
+.gnb_item,.gnb_item a{
     font-family: 'SBAggroB';
     color: #fff;
     cursor: pointer;
+    text-decoration: none;
 }
 
-.gnb_item:hover{
+.gnb_item:hover,.gnb_item a:hover{
     text-decoration:line-through;
     text-decoration-color: #00ff37;
 }
@@ -295,36 +309,59 @@ body {
     color: #fff;
 }
 
+
+
 .search{
-    display: flex;
-    align-items: center;
-}
-
-.search_box{
-    display: flex;
-    width: 200px;
-    height: 28px;
-    border: 1px solid #fff;
-    border-radius: 20px;
-    overflow: hidden;
-}
-
-.search_input{
-    width: 100%;
-    border: 0;
-    background-color: #000;
-    padding: 0 10px;
-    color: #fff;
-}
-.search_input:focus-visible{
-    outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 300px;
+  padding-top: 100px;
+  margin-bottom: 20px;
 }
 
 .search_icon{
     font-size: 28px;
-    margin: 0 10px 0 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search_box form{
+    display: flex;
+    align-items: center;
+
+    max-width: 300px;
+    height: 50px;
+    border-bottom: 1px solid #fff;
+    font-size: 0;
+}
+
+.search_input{
+    width: 100%;
+    height: 100%;
+    font-family: "LeferiPoint-WhiteObliqueA";
+    font-size: 30px;
+    padding: 0 10px;
+    border: 0;
+    background-color: rgba(000, 000, 000, 0);
     color: #fff;
 }
+
+.search_input:focus-visible {
+    outline: 0;
+}
+.search_btn{
+    background-color: rgba(000, 000, 000, 0);
+    color: #fff;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    height: 30px;
+    cursor: pointer;
+}
+
 
 .close {
     position: absolute;
@@ -338,8 +375,6 @@ body {
     font-size: 30px;
     color: #fff;
 }
-
-
 
 
 .loading {
@@ -357,6 +392,8 @@ body {
 
 
 
+
+
 @keyframes spinCircle {
     from {
         transform: translate(-50%, -50%) rotate(0);
@@ -367,19 +404,30 @@ body {
     }
 }
 
+.pagination li a{
+    color: #000;
+    text-decoration: none;
+}
+
+.pagination li.active a{
+    color: #fff;
+}
+
 
 
 /* movie */
 .movie_box {
-    padding: 10px;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-bottom: 50px;
 }
 
 .movie_tit {
     font-family: 'SBAggroB';
     font-size: 20px;
     color: #fff;
-    padding: 0px 20px;
     margin-bottom: 10px;
+    padding:0 10px;
 }
 
 .movie_list {
@@ -456,6 +504,15 @@ body {
     text-align: center;
 }
 
+.movie_imgYear {
+    font-family: 'Vitro_core';
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
 .movie_imgBtn {
     font-family: 'Vitro_core';
     display: block;
@@ -504,7 +561,7 @@ body {
     background-color: rgba(000, 000, 000, 0.5);
     box-sizing: border-box;
     text-align: center;
-
+    box-sizing: border-box;
 }
 
 .movie_detailBox {}
@@ -550,12 +607,21 @@ body {
     font-size: 20px;
     margin: 0 auto;
     margin-bottom: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 25px;
+    max-height: 220px;
+    -webkit-line-clamp: 8; 
+    -webkit-box-orient: vertical;
+
 }
 
 .movie_detailGenres {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .movie_detailGenres li {
@@ -568,14 +634,114 @@ body {
     border-radius: 20px;
 }
 
+.movie_plus{
+    width: 100%;
+}
+
+.movie_plusTxt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+
+.movie_paging{
+
+}
+.movie_paging ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie_paging li{
+    font-family: "SBAggroB";
+    text-align: center;
+    line-height: 34px;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    color: #000;
+    background-color: #00ff37;
+    margin: 0 5px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
 
 .visual{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
     min-height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 50px;
+}
+
+.visual::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(000, 000, 000, 0.2);
+}
+
+.visual_wrap{
+    z-index: 1;
+    max-width: 1280px;
+}
+
+@media screen and (max-width : 1280px) {
+    .visual_title{
+        text-align: center;
+    }
+    .visual_wrap{
+        padding: 20px;
+    }
+    .visual_info{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .visual_box{
+     width: 100%;
+     text-align: center;
+    }
+
+    .visual_detailGenres{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .visual_wrap{
+        padding: 100px 20px;
+    }
+}
+
+
+
+
+.visual_info{
+    display: flex;
+    align-items: center;
 }
 
 .visual_box{
@@ -583,5 +749,67 @@ body {
 }
 
 .visual_title{
+    font-family: "SBAggroB";
     color: #fff;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.visual_box{
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.visual_movieTitle{
+    font-family: "LeferiPoint-WhiteObliqueA";
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.visual_rating{
+    margin-bottom: 20px;
+    color: #ffd400;
+}
+.visual_description{
+    font-family: "LeferiPoint-WhiteObliqueA";
+    color: #fff;
+    font-size: 16px;
+}
+
+.visual_description{
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 20px;
+    max-height: 82px;
+    -webkit-line-clamp: 4; /* 표시하고자 하는 라인 수 */
+    -webkit-box-orient: vertical;
+}
+
+.visual_detailGenres {
+    display: flex;
+    align-items: center;
+}
+
+.visual_detailGenres li {
+    font-family: "SBAggroB";
+    font-size: 16px;
+    background-color: #00ff37;
+    padding: 10px;
+    color: #000;
+    border-radius: 20px;
+}
+
+.visual_detailGenres li + li{
+    margin-left: 10px;
+}
+
+.visual_img{
+  
+}
+
+.list{
+    padding-top: 100px;
 }

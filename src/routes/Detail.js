@@ -33,9 +33,6 @@ function Detail(){
 
     return (
       <div className='wrap'>
-      <div className='header'>
-         <h1><Link to="/">MOVIE</Link></h1>
-      </div>
         {loading ? (
           <h1>Loading...</h1>
         ) : (
