@@ -96,7 +96,7 @@ function Home() {
             </div>
           </div>
           <div className="movie_box">
-            <div className="movie_tit">평점 높은 영화</div>
+            <div className="movie_tit">평점 높은 영화123123</div>
             <div className="movie_list">
               {movies &&
                 movies.map((movie) => (
