@@ -1,14 +1,14 @@
 {
-  "main.css": "/bflix/static/css/main.ee922de2.chunk.css",
-  "main.js": "/bflix/static/js/main.cee0b7ae.chunk.js",
-  "main.js.map": "/bflix/static/js/main.cee0b7ae.chunk.js.map",
-  "static/js/1.06348889.chunk.js": "/bflix/static/js/1.06348889.chunk.js",
-  "static/js/1.06348889.chunk.js.map": "/bflix/static/js/1.06348889.chunk.js.map",
-  "runtime~main.js": "/bflix/static/js/runtime~main.0b461511.js",
-  "runtime~main.js.map": "/bflix/static/js/runtime~main.0b461511.js.map",
-  "static/media/BFILX.png": "/bflix/static/media/BFILX.350f37a8.png",
-  "static/css/main.ee922de2.chunk.css.map": "/bflix/static/css/main.ee922de2.chunk.css.map",
+  "main.css": "/bflix/static/css/main.83ba3dfd.chunk.css",
+  "main.js": "/bflix/static/js/main.fe3a6415.chunk.js",
+  "main.js.map": "/bflix/static/js/main.fe3a6415.chunk.js.map",
+  "runtime~main.js": "/bflix/static/js/runtime~main.9fbb39a1.js",
+  "runtime~main.js.map": "/bflix/static/js/runtime~main.9fbb39a1.js.map",
+  "static/js/2.81a7d914.chunk.js": "/bflix/static/js/2.81a7d914.chunk.js",
+  "static/js/2.81a7d914.chunk.js.map": "/bflix/static/js/2.81a7d914.chunk.js.map",
   "index.html": "/bflix/index.html",
-  "precache-manifest.d9956012e82bf854d13a6e0d22e7f91b.js": "/bflix/precache-manifest.d9956012e82bf854d13a6e0d22e7f91b.js",
-  "service-worker.js": "/bflix/service-worker.js"
+  "precache-manifest.ee4878e0f2ecb23eec419d714e781845.js": "/bflix/precache-manifest.ee4878e0f2ecb23eec419d714e781845.js",
+  "service-worker.js": "/bflix/service-worker.js",
+  "static/css/main.83ba3dfd.chunk.css.map": "/bflix/static/css/main.83ba3dfd.chunk.css.map",
+  "static/media/BFILX.png": "/bflix/static/media/BFILX.350f37a8.png"
 }
