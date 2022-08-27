@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6b730d0ff4997f2bdf28",
+    "revision": "2794afc409bf0ac38da9",
     "url": "/bflix/static/css/main.83ba3dfd.chunk.css"
   },
   {
-    "revision": "6b730d0ff4997f2bdf28",
-    "url": "/bflix/static/js/main.fe3a6415.chunk.js"
+    "revision": "2794afc409bf0ac38da9",
+    "url": "/bflix/static/js/main.c8a51c76.chunk.js"
   },
   {
     "revision": "bb6ce230d44214b7b24e",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/bflix/static/media/BFILX.350f37a8.png"
   },
   {
-    "revision": "7e9d0378f77a3a74c20591fa3df63a1e",
+    "revision": "cd8ee75b61b327a28ffdd5f68f9ab70f",
     "url": "/bflix/index.html"
   }
 ];

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/bflix/precache-manifest.ee4878e0f2ecb23eec419d714e781845.js"
+  "/bflix/precache-manifest.9d90152e0030b0fafdd91bdc27d53c34.js"
 );
 
 workbox.clientsClaim();
